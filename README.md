@@ -18,8 +18,6 @@ Before running the application you'll need to edit the Web.config file to set up
 
 The Twilio information will be used to send authentication tokens via SMS. Your email address and cellphone number will be used to create a User model object during the migration process' Seed method. Make sure to run `Update-Database` from the Package Manager Console to apply the Entity Framework Migrations before running.
 
-<a href="https://azuredeploy.net/" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
-
 ## Meta
 
 * No warranty expressed or implied. Software is as is.
